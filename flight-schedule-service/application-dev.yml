@@ -6,4 +6,4 @@ spring:
         use_sql_comments: true
 
 airline:
-    airlineDisabled: 'Emirates Airlines'
+    airlineDisabled: 'Jet Airlines'
