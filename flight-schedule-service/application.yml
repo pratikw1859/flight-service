@@ -24,4 +24,4 @@ spring:
         use_sql_comments: false
 
 airline:
-    airlineDisabled: 'Emirates Airlines'
+    airlineDisabled: Emirates Airlines
