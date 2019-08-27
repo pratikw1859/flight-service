@@ -3,7 +3,7 @@ spring:
   datasource:
     url: jdbc:h2:mem:currency-conversion;DB_CLOSE_DELAY=-1
     username: h2-cc-username
-    password: h2-cc-password
+    password: {cipher}09ee93a267e4be056b46f89a11a46c9590fa64872ea854ddd1e2e2a49a21454b
     platform: h2
 
 ### Hibernate Properties

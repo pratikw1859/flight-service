@@ -2,7 +2,7 @@
 spring:
   datasource:    url: jdbc:h2:mem:flight-fare;DB_CLOSE_DELAY=-1
     username: db-ff-username
-    password: db-ff-password
+    password: {cipher}a767d48435d983dd7f85634505fa559348777697340230ed756558a2b960b742
     platform: h2
 
 ### Hibernate Properties

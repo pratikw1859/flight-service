@@ -3,8 +3,9 @@ spring:
     show-sql: true
   properties:
     hibernate:
+      show_sql: true
       format_sql: true
       use_sql_comments: true
 
 airline:
-  airlineDisabled: 'Jet Airlines'
+  airlineDisabled: Jet Airlines
