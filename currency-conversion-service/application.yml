@@ -9,11 +9,11 @@ spring:
 ### Hibernate Properties
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
-    show-sql: false
     hibernate:
       ddl-auto: update
     properties:
       hibernate:
+        show_sql: false
         format_sql: false
         use_sql_comments: false
 
